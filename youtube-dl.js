@@ -1,6 +1,6 @@
 var fs = require('fs');
 var youtubedl = require('youtube-dl');
-var video = youtubedl('https://www.youtube.com/watch?v=1nzCeB9sjWk,
+var video = youtubedl('https://www.youtube.com/watch?v=1nzCeB9sjWk',
   // Optional arguments passed to youtube-dl.
   ['--format=18'],
   // Additional options can be given for calling `child_process.execFile()`.
